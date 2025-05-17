@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "start": "webpack serve --mode development",
-  "build": "webpack --mode production"
-},
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aliDubzaev/tic-tac-toe.git"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/aliDubzaev/tic-tac-toe#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
